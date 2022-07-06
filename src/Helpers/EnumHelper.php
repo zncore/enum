@@ -5,7 +5,7 @@ namespace ZnCore\Enum\Helpers;
 use InvalidArgumentException;
 use ZnCore\Instance\Exceptions\NotInstanceOfException;
 use ZnCore\Instance\Helpers\ClassHelper;
-use ZnCore\Base\Php\Helpers\ReflectionHelper;
+use ZnCore\Code\Helpers\ReflectionHelper;
 use ZnCore\Arr\Helpers\ArrayHelper;
 use ZnCore\Text\Helpers\Inflector;
 use ZnCore\Enum\Interfaces\GetLabelsInterface;

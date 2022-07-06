@@ -1,0 +1,21 @@
+{
+  "name": "zncore/enum",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zn Developer",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "ZnCore\\Enum\\": "src",
+      "ZnCore\\Enum\\Tests\\": "tests"
+    }
+  }
+}

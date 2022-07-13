@@ -3,12 +3,12 @@
 namespace ZnCore\Enum\Helpers;
 
 use InvalidArgumentException;
+use ZnCore\Arr\Helpers\ArrayHelper;
+use ZnCore\Code\Helpers\ReflectionHelper;
+use ZnCore\Enum\Interfaces\GetLabelsInterface;
 use ZnCore\Instance\Exceptions\NotInstanceOfException;
 use ZnCore\Instance\Helpers\ClassHelper;
-use ZnCore\Code\Helpers\ReflectionHelper;
-use ZnCore\Arr\Helpers\ArrayHelper;
 use ZnCore\Text\Helpers\Inflector;
-use ZnCore\Enum\Interfaces\GetLabelsInterface;
 
 /**
  * Работа с перечислениями
@@ -32,7 +32,7 @@ class EnumHelper
 
     /**
      * Валидация значения
-     * 
+     *
      * Проверяется наличие значения в списке констант.
      * При ошибке вызывает исключение.
      * @param string $className

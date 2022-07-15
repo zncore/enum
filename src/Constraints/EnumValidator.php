@@ -4,7 +4,7 @@ namespace ZnCore\Enum\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 use ZnCore\Enum\Helpers\EnumHelper;
-use ZnCore\Validation\Constraints\BaseValidator;
+use ZnDomain\Validator\Constraints\BaseValidator;
 
 class EnumValidator extends BaseValidator
 {

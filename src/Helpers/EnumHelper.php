@@ -49,7 +49,7 @@ class EnumHelper
     }
 
     /**
-     * Является ли значение валидным
+     * Проверяет, является ли значение валидным
      * @param string $className
      * @param $value
      * @param null $prefix
